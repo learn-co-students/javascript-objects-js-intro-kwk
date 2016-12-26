@@ -1,1 +1,2 @@
-var playList = {George Micheal: "Last Christmas"}; 
+var playlist = {Jackson: "Earth Song"}; 
+
