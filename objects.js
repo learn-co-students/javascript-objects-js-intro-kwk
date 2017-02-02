@@ -1,9 +1,2 @@
-var playlist = {"Mozart":"Violin Concerto"};
+var playlist = {Mozart:"Violin Concerto"};
 
-function updatePlaylist(playlist,artistName, songTitle) {
-  return Object.assign({}, playlist, {[artistName]:songTitle})
-}
-function removeFromPlaylist([playlist,artistName]) {
-  delete playlist.artistName;
-  return playlist;
-}
